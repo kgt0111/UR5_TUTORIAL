@@ -3,8 +3,9 @@
 follow under code
 
 --------------------------------------------------------------------
-
-sudo apt-get install libboost-all-dev
+```bash
+require 'redcarpet'
+markdown = Redcarpet.new("sudo apt-get install libboost-all-dev
 sudo apt install git
 sudo apt install cmake
 mkdir code
@@ -29,4 +30,6 @@ mkdir build
 cd build
 cmake  ..
 make
-./ur_rtde_cmake_example
+./ur_rtde_cmake_example")
+puts markdown.to_html
+```
